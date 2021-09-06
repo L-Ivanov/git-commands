@@ -1,0 +1,3 @@
+git checkout -b <branch-name> -> to create a new branch and checkout
+git push --set-upstream origin <same-branch-name> -> to push the locally created branch in GitHub
+Intellij -> (ctrl + k -> write message -> commit and push -> push)
