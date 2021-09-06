@@ -2,3 +2,10 @@ git checkout -b <branch-name> -> to create a new branch and checkout
 git push --set-upstream origin <same-branch-name> -> to push the locally created branch in GitHub
 Intellij -> (ctrl + k -> write message -> commit and push -> push)
 Intellij -> (ctrl + k -> write message -> amend commit and amend push -> force push)
+git status -> shows the staff we are about to commit
+git stash -> this hides the things that we don't want to commit
+git log -> shows the commits history
+git rebase -i main -> this cleans your branch from all the commits and lets you edit the existing things
+fixup -> f -> squashes commits into the previous one like accordion
+rework -> r -> lets you edit the commits with r
+git push -f -> this force pushes and override with the latest changes
